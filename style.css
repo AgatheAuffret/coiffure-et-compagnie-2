@@ -10,8 +10,37 @@
     margin: 0;
 }
 
+:root {
+    /* --enseigne_color: rgb(255, 189, 197);
+    --enseigne_color-transparent: rgba(255, 189, 197, 0.781);
+    --bouton:rgb(185, 105, 115);
+    --navbar_color:rgb(38, 38, 38); */
+
+    --enseigne_color: rgb(194, 165, 165);
+
+    --navbar_color:rgb(38, 38, 38);
+    --navbar_background_color:rgb(194, 165, 165);
+
+    --title_color:rgb(214, 214, 214);
+    --paragraphe_color:rgb(141, 141, 141);
+
+    --background_color_1:rgb(54,54,54);
+    --background_color_0:rgb(38,38,38);
+   
+    --button_color:rgb(38, 38, 38);
+    --button_background_color:rgb(117, 102, 102);
+    --button_text_hover_color:rgb(38, 38, 38);
+
+    --subtitle_color: rgb(185, 185, 185);
+    --subbitle_little_color:rgb(92, 92, 92);
+    --enseigne_color_transparent: rgb(117, 102, 102);
+
+    --footer_background_color:rgb(27, 27, 27);
+    --footer_text_color:rgb(95, 80, 80);
+  }
+
 body {
-    background-color: rgb(38, 38, 38);
+    background-color: var(--background_color_0);
 }
 
 /* *************************************************************************************************************
@@ -34,14 +63,14 @@ body {
 #header #enseigne #title {
     font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
     font-size: 3rem;
-    color: rgb(255, 189, 197);
+    color: var(--enseigne_color);
     padding: 40px 40px;
 }
 
 #header #enseigne {
     height: fit-content;
     width: fit-content;
-    border: 4px solid rgb(255, 189, 197);
+    border: 4px solid var(--enseigne_color);
     position: relative;
     animation: logo 5s 1;
     animation-direction: initial;
@@ -83,7 +112,7 @@ body {
 #header h5{
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgba(255, 189, 197, 0.781);
+    color: var(--enseigne_color);
     font-weight: lighter;
 }
 
@@ -171,7 +200,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(255, 189, 197);
+    background-color: var(--navbar_background_color);
     height: 50px;
     align-items: center;
     width: 100%;
@@ -195,7 +224,7 @@ body {
 #navbar .nav-links {
     display: flex;
     text-decoration: none;
-    color: rgb(38, 38, 38);
+    color: var(--navbar_color);
     font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
     height: 50px;
     align-items: center;
@@ -221,7 +250,7 @@ body {
     #navbar .nav-links {
         display: flex;
         text-decoration: none;
-        color: rgb(38, 38, 38);
+        color: var(--navbar_color);
         font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
         height: 20px;
         align-items: center;
@@ -230,9 +259,6 @@ body {
     
 
     #navbar .nav-links:hover {
-        background-color: rgba(255, 255, 255, 0.205);
-        transition-duration: 1s;
-        animation: nav;
         font-size: 1rem;
     }
 }
@@ -245,7 +271,7 @@ section h2 {
     font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 2rem;
-    color: rgb(255, 189, 197);
+    color: var(--title_color);
     text-align: center;
     width: 50%;
     margin: 20px auto;
@@ -255,7 +281,7 @@ section h2 {
 section p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.541);
+    color: var(--paragraphe_color);
     text-align: justify;
     line-height: 2;
     width: 50%;
@@ -288,7 +314,7 @@ section p {
 
  section span {
     font-size: 1.2rem;
-    color: rgb(255, 189, 197);
+    color: var(--subtitle_color);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
@@ -315,7 +341,7 @@ section p {
 ************************************************************************************************************* */
 
 #presta-section {
-    background-color: rgb(54, 54, 54);
+    background-color: var(--background_color_1);
     padding-bottom: 60px;
 
 }
@@ -333,11 +359,11 @@ section p {
 }
 
 #presta {
-    color: rgb(255, 189, 197);
+    color: var(--title_color);
 }
 
 .title-price {
-    color: rgb(228, 228, 228);
+    color: var(--subtitle_color);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 1.4rem;
@@ -355,11 +381,11 @@ section p {
     font-weight: lighter;
     font-style: 1rem;
     text-align: justify;
-    color: rgb(212, 212, 212);
+    color: var(--paragraphe_color);
 }
 
 .prix {
-    color: rgb(138, 138, 138);
+    color: var(--subbitle_little_color);
     font-weight: lighter;
     font-size: 1rem;
 }
@@ -369,12 +395,12 @@ section p {
 }
 
 .article-price li:hover {
-    color: rgb(255, 189, 197);
+    color: var(--enseigne_color);
     font-size: 1.1rem;
 }
 
 .article-price li:hover>span {
-    color: rgba(255, 189, 197, 0.356);
+    color: var(--enseigne_color_transparent);
     font-size: 1.1rem;
 }
 
@@ -399,25 +425,23 @@ section p {
     }
 
     .prix {
-        color: rgb(138, 138, 138);
+        color: var(--subtitle_little_color);
         font-weight: lighter;
         font-size: 1.1rem;
     }
 
     .article-price li:hover {
-        color: rgb(255, 189, 197);
+        color: var(--enseigne_color);
         font-size: 1.3rem;
     }
 
     .article-price li:hover>span {
-        color: rgba(255, 189, 197, 0.356);
+        /* color: rgba(255, 189, 197, 0.356); */
+        color: var(--enseigne_color);
         font-size: 1.3rem;
     }
 
     .title-price {
-        color: rgb(255, 172, 181);
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: lighter;
         font-size: 1.5rem;
         padding: 20px 0;
         text-align:center;
@@ -452,7 +476,7 @@ section p {
 
 
 #products-section article div h3 {
-    color: rgb(255, 189, 197);
+    color: var(--enseigne_color);
     font-family: "Orator Std Medium", Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: lighter;
@@ -461,7 +485,7 @@ section p {
 }
 
 #products-section article div p {
-    color: rgb(138, 138, 138);
+    color: var(--paragraphe_color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: lighter;
@@ -475,7 +499,7 @@ section p {
 }
 
 #products-section article div a div {
-    color: rgb(38, 38, 38);
+    color: var(--navbar_color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: lighter;
@@ -484,15 +508,15 @@ section p {
     margin: auto;
     width: fit-content;
     padding: 10px;
-    background-color: rgb(255, 189, 197);
+    background-color: var(--enseigne_color);
     border-radius: 10px;
     margin-top: 10px;
 }
 
 #products-section article div a div:hover {
-    background-color: rgb(185, 105, 115);
+    background-color: var(--button_background_color);
     transition-duration: 0.5s;
-    color: white;
+    color: var(--button_text_hover_color);
 }
 
 @media screen and (max-width: 480px) {
@@ -518,7 +542,6 @@ section p {
         text-align: center;
         font-size: 1.5rem;
         padding: 20px 0;
-        color: rgb(228, 228, 228);
     }
 
     #products-section {
@@ -541,7 +564,7 @@ section p {
 ************************************************************************************************************* */
 
 #gallerie-section {
-    background-color: rgb(54, 54, 54);
+    background-color: var(--background_color_1);
     padding-bottom: 60px;
 }
 
@@ -557,7 +580,7 @@ section p {
 }
 
 #gallerie-section a div {
-    color: rgb(38, 38, 38);
+    color: var(--navbar_color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: lighter;
@@ -566,7 +589,7 @@ section p {
     margin: auto;
     width: fit-content;
     padding: 20px;
-    background-color: rgb(255, 189, 197);
+    background-color: var(--enseigne_color);
     border-radius: 10px;
     margin-top: 50px;
 }
@@ -577,9 +600,9 @@ section p {
 }
 
 #gallerie-section a div:hover {
-    background-color: rgb(185, 105, 115);
+    background-color: var(--button_background_color);
     transition-duration: 0.5s;
-    color: white;
+    color: var(--button_text_hover_color);
 }
 
 @media screen and (max-width: 480px) {
@@ -608,7 +631,7 @@ section p {
 ************************************************************************************************************* */
 
 #footer{
-    background-color: rgb(26, 26, 26);
+    background-color: var(--footer_bacground_color);
 }
 
 #footer img{
@@ -639,7 +662,7 @@ section p {
 
 #footer div div .menu_footer {
     text-decoration: none;
-    color: rgb(212, 212, 212);
+    color: var(--paragraphe_color);
     font-family: "Orator Std Medium";
     margin :10px;
     margin-left: 100px;
@@ -648,7 +671,7 @@ section p {
 #footer h6{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    color: rgba(255, 255, 255, 0.329);
+    color: var(--footer_text_color);
     font-weight: lighter;
     text-align: center;
     padding-top: 20px;
