@@ -88,7 +88,12 @@ body {
     text-align: center;
     animation: socialnetworks 4s 1;
     animation-direction: initial;
+}
 
+#header #social_networks #social_networks_2{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
 }
 
 #header #social_networks div a{
@@ -141,7 +146,7 @@ body {
         background: linear-gradient(rgba(38, 38, 38, 0.5), rgba(38, 38, 38, 0.5)), url(./img/822.jpg);
         width: auto;
         background-size: cover;        
-        background-position: -270px;
+        background-position: -300px;
         justify-content: start;
     }
 
@@ -165,11 +170,20 @@ body {
     }
 
     #header #social_networks{
-        margin-top: 270px;
+        margin-top: 290px;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
+    }
 
+    #header #social_networks #social_networks_2{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    #header #social_networks #social_networks_2 div{
+        width: 100px;
     }
 
     #header #social_networks img{
@@ -183,6 +197,8 @@ body {
 
     #header #social_networks h5{
         font-size: 0.8rem;
+        justify-content: center;
+        display: flex;
     }
 
 }
