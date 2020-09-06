@@ -56,7 +56,7 @@ body {
 }
 
 #header #enseigne #title {
-    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
+    font-family: 'Orator Std Medium', Arial;
     font-size: 3rem;
     color: var(--enseigne_color);
     padding: 40px 40px;
@@ -112,7 +112,7 @@ body {
 
 #header h5{
     font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     color: var(--enseigne_color);
     font-weight: lighter;
 }
@@ -237,7 +237,7 @@ body {
     display: flex;
     text-decoration: none;
     color: var(--navbar_color);
-    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
+    font-family: 'Orator Std Medium', Arial;
     height: 50px;
     align-items: center;
     padding: 0 30px;
@@ -264,7 +264,7 @@ body {
         display: flex;
         text-decoration: none;
         color: var(--navbar_color);
-        font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
+        font-family: 'Orator Std Medium', Arial;
         height: 20px;
         align-items: center;
         padding: 0 30px;
@@ -281,7 +281,7 @@ body {
 ************************************************************************************************************* */
 
 section h2 {
-    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
+    font-family: 'Orator Std Medium', Arial;
     font-weight: lighter;
     font-size: 2rem;
     color: var(--title_color);
@@ -292,7 +292,7 @@ section h2 {
 }
 
 section p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 1rem;
     color: var(--paragraphe_color);
     text-align: justify;
@@ -328,7 +328,7 @@ section p {
  section span {
     font-size: 1.2rem;
     color: var(--subtitle_color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 
 #map {
@@ -376,7 +376,7 @@ section p {
 
 .title-price {
     color: var(--subtitle_color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 1.4rem;
     padding: 20px 0;
 }
@@ -388,14 +388,13 @@ section p {
 
 .article-price li {
     list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-style: 1rem;
     text-align: justify;
     color: var(--paragraphe_color);
 }
 
 .prix {
-    color: var(--subbitle_little_color);
     font-weight: lighter;
     font-size: 1rem;
 }
@@ -488,7 +487,7 @@ section p {
 
 #products-section article div h3 {
     color: var(--enseigne_color);
-    font-family: "Orator Std Medium", Arial, Helvetica, sans-serif;
+    font-family: "Orator Std Medium", Arial;
     font-size: 1.5rem;
     font-weight: lighter;
     width: 90%;
@@ -497,7 +496,7 @@ section p {
 
 #products-section article div p {
     color: var(--paragraphe_color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 1rem;
     width: 90%;
     text-align: justify;
@@ -510,7 +509,7 @@ section p {
 
 #products-section article div a div {
     color: var(--navbar_color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 1rem;
     width: 90%;
     text-align: center;
@@ -589,7 +588,7 @@ section p {
 
 #gallerie-section a div {
     color: var(--navbar_color);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 1rem;
     width: 90%;
     text-align: center;
@@ -670,13 +669,13 @@ section p {
 #footer div div .menu_footer {
     text-decoration: none;
     color: var(--paragraphe_color);
-    font-family: "Orator Std Medium",Arial, Helvetica, sans-serif;
+    font-family: "Orator Std Medium",Arial;
     margin :10px;
     margin-left: 100px;
 }
 
 #footer h6{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-size: 1rem;
     color: var(--footer_text_color);
     text-align: center;
