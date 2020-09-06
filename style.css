@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Orator Std Medium';
+    font-family: 'oratorstd';
     font-style: normal;
     font-weight: normal;
-    src: local('Orator Std Medium'), url('./font/OratorStd.woff') format('woff');
+    src: local('oratorstd'), url('oratorstd.woff') format('woff');
 }
 
 * {
@@ -11,11 +11,6 @@
 }
 
 :root {
-    /* --enseigne_color: rgb(255, 189, 197);
-    --enseigne_color-transparent: rgba(255, 189, 197, 0.781);
-    --bouton:rgb(185, 105, 115);
-    --navbar_color:rgb(38, 38, 38); */
-
     --enseigne_color: rgb(194, 165, 165);
 
     --navbar_color:rgb(38, 38, 38);
@@ -61,7 +56,7 @@ body {
 }
 
 #header #enseigne #title {
-    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
+    font-family: 'oratorstd', Arial, Helvetica, sans-serif;
     font-size: 3rem;
     color: var(--enseigne_color);
     padding: 40px 40px;
@@ -225,7 +220,7 @@ body {
     display: flex;
     text-decoration: none;
     color: var(--navbar_color);
-    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
+    font-family: 'oratorstd', Arial, Helvetica, sans-serif;
     height: 50px;
     align-items: center;
     padding: 0 30px;
@@ -251,7 +246,7 @@ body {
         display: flex;
         text-decoration: none;
         color: var(--navbar_color);
-        font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
+        font-family: 'oratorstd', Arial, Helvetica, sans-serif;
         height: 20px;
         align-items: center;
         padding: 0 30px;
@@ -268,7 +263,7 @@ body {
 ************************************************************************************************************* */
 
 section h2 {
-    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
+    font-family: 'oratorstd', Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 2rem;
     color: var(--title_color);
@@ -478,7 +473,7 @@ section p {
 
 #products-section article div h3 {
     color: var(--enseigne_color);
-    font-family: "Orator Std Medium", Arial, Helvetica, sans-serif;
+    font-family: "oratorstd", Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: lighter;
     width: 90%;
@@ -663,7 +658,7 @@ section p {
 #footer div div .menu_footer {
     text-decoration: none;
     color: var(--paragraphe_color);
-    font-family: "Orator Std Medium";
+    font-family: "oratorstd";
     margin :10px;
     margin-left: 100px;
 }
