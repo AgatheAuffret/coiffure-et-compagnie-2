@@ -375,9 +375,10 @@ section p {
 }
 
 .title-price {
-    color: var(--subtitle_color);
-    font-family: Arial;
-    font-size: 1.4rem;
+    color: var(--enseigne_color);
+    font-family: "Orator Std Medium", Arial;
+    font-size: 1.5rem;
+    font-weight: lighter;
     padding: 20px 0;
 }
 
