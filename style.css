@@ -93,6 +93,7 @@ body {
 #header #social_networks #social_networks_2{
     display: flex;
     flex-direction: row;
+    
     margin: 0;
 }
 
@@ -170,7 +171,7 @@ body {
     }
 
     #header #social_networks{
-        margin-top: 290px;
+        margin-top: 250px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -179,7 +180,7 @@ body {
     #header #social_networks #social_networks_2{
         display: flex;
         flex-direction: row;
-
+        width: 100vw;
     }
 
     #header #social_networks #social_networks_2 div{
@@ -256,6 +257,7 @@ body {
 
     #navbar {
         height: 110px;
+        width: 100vw;
     }
 
     #navbar .nav-links {
@@ -599,7 +601,7 @@ section p {
     text-align: center;
     margin: auto;
     width: fit-content;
-    padding: 20px;
+    padding: 10px;
     background-color: var(--enseigne_color);
     border-radius: 10px;
     margin-top: 50px;

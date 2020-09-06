@@ -104,31 +104,54 @@ body {
     }
 }
 
-
 /* *************************************************************************************************************
                                                     SECTION
 ************************************************************************************************************* */
+
+section{
+    padding-top: 80px;
+}
 
 h2{
     font-family: "orator Std Medium",Arial, Helvetica, sans-serif;
     font-size: 2rem;
     font-weight: lighter;
     text-align: center;
-    color: var(--enseigne_color);
-    padding-top: 70px;
-    padding-bottom: 20px;
+    color: var(--title_color);
 }
 
-#gallerie{
-    display:flex;
-    flex-wrap: wrap;
-    margin: 0 300px;
-    justify-content: center;
+h3{
+    font-family: "Orator Std Medium",Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: rgb(228, 228, 228);
+    font-weight: lighter;
+    padding:20px 0px;
 }
 
-#gallerie img{
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: var(--paragraphe_color);
+    font-weight: lighter;
+    text-align: justify;
+}
+
+img{
     width: 300px;
-    margin: 10px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+    width: 60%;
+}
+
+article div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 20px;
 }
 
 .return {
@@ -153,30 +176,47 @@ h2{
 .return:hover {
     background-color: var(--button_background_color);
     transition-duration: 0.5s;
-    color: var(--button_color);
 }
 
 @media screen and (max-width: 480px) {
-    #gallerie{
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        margin: 0 20px;
-        grid-gap: 10px;
+    article {
+        width: 90%;flex-direction: column;
+        margin :  20px auto;
+    }
+
+    article img{
+        width: 80%;
+        margin: auto;
+    }
+
+    article div{
+        width: 70%;
+        margin:10px;
+    }
+
+    article div h3{
+        font-size: 1.5rem;
+        padding: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    article div p{
+        font-size: 1.1rem;
     }
 
     h2{
         font-size: 2rem;
-        padding-top: 120px;
-    }
-
-    #gallerie img{
-        width: 100%;
-        margin:auto;
+        margin-top: 50px;
     }
 
     .return{
         font-size: 1rem;
-        margin-top: 30px;
+        margin-top: 10px;
+    }
+
+    section{
+        padding-top: 70px;
     }
 }
 
