@@ -2,7 +2,7 @@
     font-family: 'Orator Std Medium';
     font-style: normal;
     font-weight: normal;
-    src: local('Orator Std Medium'), url('OratorStd.woff') format('woff');
+    src: local('Orator Std Medium'), url('font/OratorStd.woff') format('woff');
     }
 
 * {
