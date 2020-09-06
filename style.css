@@ -225,7 +225,7 @@ body {
     display: flex;
     text-decoration: none;
     color: var(--navbar_color);
-    font-family: 'Orator Std Medium';
+    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
     height: 50px;
     align-items: center;
     padding: 0 30px;
@@ -251,7 +251,7 @@ body {
         display: flex;
         text-decoration: none;
         color: var(--navbar_color);
-        font-family: 'Orator Std Medium';
+        font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
         height: 20px;
         align-items: center;
         padding: 0 30px;
