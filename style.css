@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'oratorstd';
+    font-family: 'Orator Std Medium';
     font-style: normal;
     font-weight: normal;
-    src: local('oratorstd'), url('oratorstd.woff') format('woff');
-}
+    src: local('Orator Std Medium'), url('OratorStd.woff') format('woff');
+    }
 
 * {
     padding: 0;
@@ -56,7 +56,7 @@ body {
 }
 
 #header #enseigne #title {
-    font-family: 'oratorstd', Arial, Helvetica, sans-serif;
+    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
     font-size: 3rem;
     color: var(--enseigne_color);
     padding: 40px 40px;
@@ -220,7 +220,7 @@ body {
     display: flex;
     text-decoration: none;
     color: var(--navbar_color);
-    font-family: 'oratorstd', Arial, Helvetica, sans-serif;
+    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
     height: 50px;
     align-items: center;
     padding: 0 30px;
@@ -246,7 +246,7 @@ body {
         display: flex;
         text-decoration: none;
         color: var(--navbar_color);
-        font-family: 'oratorstd', Arial, Helvetica, sans-serif;
+        font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
         height: 20px;
         align-items: center;
         padding: 0 30px;
@@ -263,7 +263,7 @@ body {
 ************************************************************************************************************* */
 
 section h2 {
-    font-family: 'oratorstd', Arial, Helvetica, sans-serif;
+    font-family: 'Orator Std Medium', Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 2rem;
     color: var(--title_color);
@@ -473,7 +473,7 @@ section p {
 
 #products-section article div h3 {
     color: var(--enseigne_color);
-    font-family: "oratorstd", Arial, Helvetica, sans-serif;
+    font-family: "Orator Std Medium", Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     font-weight: lighter;
     width: 90%;
@@ -658,7 +658,7 @@ section p {
 #footer div div .menu_footer {
     text-decoration: none;
     color: var(--paragraphe_color);
-    font-family: "oratorstd";
+    font-family: "Orator Std Medium",Arial, Helvetica, sans-serif;
     margin :10px;
     margin-left: 100px;
 }
