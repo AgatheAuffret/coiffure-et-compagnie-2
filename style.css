@@ -329,7 +329,6 @@ section p {
     font-size: 1.2rem;
     color: var(--subtitle_color);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
 }
 
 #map {
@@ -378,7 +377,6 @@ section p {
 .title-price {
     color: var(--subtitle_color);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
     font-size: 1.4rem;
     padding: 20px 0;
 }
@@ -391,7 +389,6 @@ section p {
 .article-price li {
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
     font-style: 1rem;
     text-align: justify;
     color: var(--paragraphe_color);
@@ -502,7 +499,6 @@ section p {
     color: var(--paragraphe_color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: lighter;
     width: 90%;
     text-align: justify;
     margin: 0 auto;
@@ -516,7 +512,6 @@ section p {
     color: var(--navbar_color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: lighter;
     width: 90%;
     text-align: center;
     margin: auto;
@@ -596,7 +591,6 @@ section p {
     color: var(--navbar_color);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: lighter;
     width: 90%;
     text-align: center;
     margin: auto;
@@ -685,7 +679,6 @@ section p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     color: var(--footer_text_color);
-    font-weight: lighter;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
